@@ -20,7 +20,7 @@ public class TestNeo4J {
 			
 		BookService bookService = new BookService(session);
 		TestNeo4JService testNeo4JService = new TestNeo4JService(bookService);
-		System.out.println("Aplikacja ma za zadanie pokazać działanie grafowych składów danych");
+		System.out.println("Aplikacja ma za zadanie pokazać działanie grafowych baz danych");
 		System.out.println("Temat: biblioteka");
 		for (;;) {
 			System.out.println("1 -> Dodaj książkę");
